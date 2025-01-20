@@ -1,0 +1,6 @@
+@PickAPod.Favorite_HostAddress = http://localhost:5125
+
+GET {{PickAPod.Favorite_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
