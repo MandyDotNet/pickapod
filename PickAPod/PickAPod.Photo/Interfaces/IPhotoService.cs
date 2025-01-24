@@ -1,6 +1,8 @@
-﻿public interface IPhotoService
+﻿using PickAPod.Photo.Services;
+
+public interface IPhotoService
 {
-    Task<string> GetAPODForDate(string date);
+    Task<APODResponse> GetAPODForDate(string date);
     Task<List<string>> GetAPODs(string startDate, string endDate);
     Task<List<string>> SearchAPOD(string query);
 }
