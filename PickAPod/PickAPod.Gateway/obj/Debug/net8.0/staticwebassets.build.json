@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "fTImQoHicgOEMgp9udhq0ER/vipnXCVN8iVeK0aSTHk=",
+  "Source": "PickAPod.Gateway",
+  "BasePath": "_content/PickAPod.Gateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
