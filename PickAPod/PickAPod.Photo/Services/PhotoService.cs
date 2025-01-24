@@ -12,7 +12,7 @@ namespace PickAPod.Photo.Services
         public PhotoService(HttpClient httpClient, IConfiguration configuration, ILogger<PhotoService> logger)
         {
             _httpClient = httpClient;
-            _nasaApiKey = configuration["NasaApiKey"];
+            _nasaApiKey = configuration["NASA:ApiKey"];
             _logger = logger;
         }
 
