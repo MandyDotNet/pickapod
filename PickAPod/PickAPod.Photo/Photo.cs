@@ -1,6 +1,6 @@
 namespace PickAPod.Photo
 {
-    public class WeatherForecast
+    public class Photo
     {
         public DateOnly Date { get; set; }
 
