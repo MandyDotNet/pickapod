@@ -28,6 +28,6 @@ metadata:
 spec:
   ports:
   - protocol: TCP
-    port: 5001
+    port: 5002
   selector:
     app: user-service

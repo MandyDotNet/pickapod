@@ -28,6 +28,6 @@ metadata:
 spec:
   ports:
   - protocol: TCP
-    port: 5001
+    port: 5003
   selector:
     app: favorites-service

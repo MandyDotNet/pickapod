@@ -2,43 +2,66 @@ version: '3.8'
 services:
   api-gateway:
     build:
-      context: ../services/PickAPod.Gateway
+      context: ../backend/api-gateway
       dockerfile: Dockerfile
     ports:
-      - "5000:5000" 
-      - "5001:5001" 
+      - "44381:44381"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+      - GATEWAY_SERVICE_PORT=44381
     depends_on:
       - photo-service
       - user-service
       - favorites-service
-      - logging-service
 
   photo-service:
     build:
-      context: ../services/PickAPod.Photo
+      context: ../backend/photo-service
       dockerfile: Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "44362:44362"
 
   user-service:
     build:
-      context: ../services/PickAPod.User
+      context: ../backend/user-service
       dockerfile: Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "44375:44375"
 
   favorites-service:
     build:
-      context: ../services/PickAPod.Favorite
+      context: ../backend/favorites-service
       dockerfile: Dockerfile
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "44317:44317"
 
-  logging-service:
-    build:
-      context: ../services/PickAPod.Logging
-      dockerfile: Dockerfile
+  postgres:
+    image: postgres:14
+    container_name: postgres
+    restart: always
+    ports:
+      - "5432:5432"
     environment:
-      - ASPNETCORE_ENVIRONMENT=Development
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: pickapod
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  rabbitmq:
+    image: rabbitmq:management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+
+volumes:
+  pgdata:
