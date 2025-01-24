@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PickAPod.Photo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e55c96837bff44775b51a93c45bc84552cf65ffc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bdf1b92d6f407ee0a390e849d3b259b963b47a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("PickAPod.Photo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PickAPod.Photo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
