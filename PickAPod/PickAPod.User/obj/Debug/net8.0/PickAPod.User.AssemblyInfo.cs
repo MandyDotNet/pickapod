@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PickAPod.User")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d81f3a5cce93f923e01e83ce57f3562a0b4748a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+121b9728224a381657fceb92a67346c34e8ee645")]
 [assembly: System.Reflection.AssemblyProductAttribute("PickAPod.User")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PickAPod.User")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
