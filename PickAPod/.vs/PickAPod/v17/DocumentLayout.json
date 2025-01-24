@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Projects\\pickapod\\PickAPod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6C61D06-991A-4F67-B5EC-9C91C80D0214}|PickAPod.User\\PickAPod.User.csproj|c:\\projects\\pickapod\\pickapod\\pickapod.user\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6C61D06-991A-4F67-B5EC-9C91C80D0214}|PickAPod.User\\PickAPod.User.csproj|solutionrelative:pickapod.user\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}|PickAPod.Photo\\PickAPod.Photo.csproj|c:\\projects\\pickapod\\pickapod\\pickapod.photo\\services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}|PickAPod.Photo\\PickAPod.Photo.csproj|solutionrelative:pickapod.photo\\services\\photoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}|PickAPod.Photo\\PickAPod.Photo.csproj|c:\\projects\\pickapod\\pickapod\\pickapod.photo\\interfaces\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}|PickAPod.Photo\\PickAPod.Photo.csproj|solutionrelative:pickapod.photo\\interfaces\\iphotoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}|PickAPod.Photo\\PickAPod.Photo.csproj|c:\\projects\\pickapod\\pickapod\\pickapod.photo\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}|PickAPod.Photo\\PickAPod.Photo.csproj|solutionrelative:pickapod.photo\\controllers\\photocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}|PickAPod.Photo\\PickAPod.Photo.csproj|c:\\projects\\pickapod\\pickapod\\pickapod.photo\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}|PickAPod.Photo\\PickAPod.Photo.csproj|solutionrelative:pickapod.photo\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +26,181 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 19,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPhotoService.cs",
+              "DocumentMoniker": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.Photo\\Interfaces\\IPhotoService.cs",
+              "RelativeDocumentMoniker": "PickAPod.Photo\\Interfaces\\IPhotoService.cs",
+              "ToolTip": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.Photo\\Interfaces\\IPhotoService.cs",
+              "RelativeToolTip": "PickAPod.Photo\\Interfaces\\IPhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T22:01:44.522Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.Photo\\Models\\Photo.cs",
+              "RelativeDocumentMoniker": "PickAPod.Photo\\Models\\Photo.cs",
+              "ToolTip": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.Photo\\Models\\Photo.cs",
+              "RelativeToolTip": "PickAPod.Photo\\Models\\Photo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:55:10.503Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.User\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "PickAPod.User\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.User\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "PickAPod.User\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAArwBUAAAAbAAAAAAAAAA==",
+              "Title": "PhotoService.cs",
+              "DocumentMoniker": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.Photo\\Services\\PhotoService.cs",
+              "RelativeDocumentMoniker": "PickAPod.Photo\\Services\\PhotoService.cs",
+              "ToolTip": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.Photo\\Services\\PhotoService.cs",
+              "RelativeToolTip": "PickAPod.Photo\\Services\\PhotoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T21:41:05.488Z",
+              "WhenOpened": "2025-01-24T20:50:38.778Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PhotoController.cs",
+              "DocumentMoniker": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.Photo\\Controllers\\PhotoController.cs",
+              "RelativeDocumentMoniker": "PickAPod.Photo\\Controllers\\PhotoController.cs",
+              "ToolTip": "C:\\Projects\\pickapod\\PickAPod\\PickAPod.Photo\\Controllers\\PhotoController.cs",
+              "RelativeToolTip": "PickAPod.Photo\\Controllers\\PhotoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T20:50:22.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 288,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f2e84780-2af1-11d1-a7fa-00a0c9110051}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a18f9d0-b838-11d0-93eb-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{90243340-bd7a-11d0-93ef-00a0c90f2734}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

@@ -1,4 +1,7 @@
-﻿namespace PickAPod.Photo.Services
+﻿using Microsoft.AspNetCore.Mvc.ApplicationModels;
+using Newtonsoft.Json;
+
+namespace PickAPod.Photo.Services
 {
     public class PhotoService : IPhotoService
     {
@@ -18,23 +21,26 @@
             var url = $"https://api.nasa.gov/planetary/apod?api_key={_nasaApiKey}&date={date}";
             var response = await _httpClient.GetAsync(url);
             response.EnsureSuccessStatusCode();
-            return await response.Content.ReadAsStringAsync();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<string>(content);
         }
 
-        public async Task<string> GetAPODs(string startDate, string endDate)
+        public async Task<List<string>> GetAPODs(string startDate, string endDate)
         {
             var url = $"https://api.nasa.gov/planetary/apod?api_key={_nasaApiKey}&start_date={startDate}&end_date={endDate}";
             var response = await _httpClient.GetAsync(url);
             response.EnsureSuccessStatusCode();
-            return await response.Content.ReadAsStringAsync();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<List<string>>(content);
         }
 
-        public async Task<string> SearchAPOD(string query)
+        public async Task<List<string>> SearchAPOD(string query)
         {
             var url = $"https://api.nasa.gov/planetary/apod?api_key={_nasaApiKey}&q={query}";
             var response = await _httpClient.GetAsync(url);
             response.EnsureSuccessStatusCode();
-            return await response.Content.ReadAsStringAsync();
+            var content = await response.Content.ReadAsStringAsync();
+            return JsonConvert.DeserializeObject<List<string>>(content);
         }
     }
 }

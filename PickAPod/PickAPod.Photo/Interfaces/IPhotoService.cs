@@ -1,6 +1,6 @@
 ﻿public interface IPhotoService
 {
     Task<string> GetAPODForDate(string date);
-    Task<string> GetAPODs(string startDate, string endDate);
-    Task<string> SearchAPOD(string query);
+    Task<List<string>> GetAPODs(string startDate, string endDate);
+    Task<List<string>> SearchAPOD(string query);
 }

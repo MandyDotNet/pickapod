@@ -11,8 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{B20AF0A4-0F5C-4C8F-AFC7-FF5E1E05636E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{166506E3-5B8E-4F4A-A8C5-B136285F5C91}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickAPod.User", "PickAPod.User\PickAPod.User.csproj", "{A6C61D06-991A-4F67-B5EC-9C91C80D0214}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickAPod.Photo", "PickAPod.Photo\PickAPod.Photo.csproj", "{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}"
