@@ -1,0 +1,108 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{9D0560A6-ABA7-4FF8-972E-1EE6A5F5A3FF}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{B20AF0A4-0F5C-4C8F-AFC7-FF5E1E05636E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickAPod.User", "PickAPod.User\PickAPod.User.csproj", "{A6C61D06-991A-4F67-B5EC-9C91C80D0214}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickAPod.Photo", "PickAPod.Photo\PickAPod.Photo.csproj", "{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickAPod.Logging", "PickAPod.Logging\PickAPod.Logging.csproj", "{AC5B0478-D1AB-4484-8630-9B6BC9566F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickAPod.Favorites", "PickAPod.Favorite\PickAPod.Favorites.csproj", "{54E9E462-1055-4329-BF55-B44DFA4E999E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickAPod.Gateway", "PickAPod.Gateway\PickAPod.Gateway.csproj", "{425A4960-2A37-4CB2-B9F4-B60334DEB8D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "env", "env", "{5F4F1921-6374-48C6-88CB-41CD72668C12}"
+	ProjectSection(SolutionItems) = preProject
+		development.env = development.env
+		production.env = production.env
+		staging.env = staging.env
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{EEEC1D51-088D-4AAE-8BE0-6B4FB5C3B21B}"
+	ProjectSection(SolutionItems) = preProject
+		api-gateway.yaml = api-gateway.yaml
+		configmap.yaml = configmap.yaml
+		favorites-service.yaml = favorites-service.yaml
+		ingress.yaml = ingress.yaml
+		logging-service.yaml = logging-service.yaml
+		photo-service.yaml = photo-service.yaml
+		postgres.yaml = postgres.yaml
+		redis.yaml = redis.yaml
+		user-service.yaml = user-service.yaml
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "client", "client\", "{8B8C84CB-D97B-4FAC-A83A-E0B06DCA08FE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50948"
+		Debug.AspNetCompiler.PhysicalPath = "client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50948\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50948"
+		Release.AspNetCompiler.PhysicalPath = "client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50948\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50948"
+		SlnRelativePath = "client\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6C61D06-991A-4F67-B5EC-9C91C80D0214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C61D06-991A-4F67-B5EC-9C91C80D0214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C61D06-991A-4F67-B5EC-9C91C80D0214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C61D06-991A-4F67-B5EC-9C91C80D0214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512A4D90-A39C-4738-A6EE-7CF357F2FCF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC5B0478-D1AB-4484-8630-9B6BC9566F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC5B0478-D1AB-4484-8630-9B6BC9566F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC5B0478-D1AB-4484-8630-9B6BC9566F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC5B0478-D1AB-4484-8630-9B6BC9566F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E9E462-1055-4329-BF55-B44DFA4E999E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E9E462-1055-4329-BF55-B44DFA4E999E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E9E462-1055-4329-BF55-B44DFA4E999E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E9E462-1055-4329-BF55-B44DFA4E999E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425A4960-2A37-4CB2-B9F4-B60334DEB8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425A4960-2A37-4CB2-B9F4-B60334DEB8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425A4960-2A37-4CB2-B9F4-B60334DEB8D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425A4960-2A37-4CB2-B9F4-B60334DEB8D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B8C84CB-D97B-4FAC-A83A-E0B06DCA08FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8C84CB-D97B-4FAC-A83A-E0B06DCA08FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8C84CB-D97B-4FAC-A83A-E0B06DCA08FE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8C84CB-D97B-4FAC-A83A-E0B06DCA08FE}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6C61D06-991A-4F67-B5EC-9C91C80D0214} = {B20AF0A4-0F5C-4C8F-AFC7-FF5E1E05636E}
+		{512A4D90-A39C-4738-A6EE-7CF357F2FCF8} = {B20AF0A4-0F5C-4C8F-AFC7-FF5E1E05636E}
+		{AC5B0478-D1AB-4484-8630-9B6BC9566F30} = {B20AF0A4-0F5C-4C8F-AFC7-FF5E1E05636E}
+		{54E9E462-1055-4329-BF55-B44DFA4E999E} = {B20AF0A4-0F5C-4C8F-AFC7-FF5E1E05636E}
+		{425A4960-2A37-4CB2-B9F4-B60334DEB8D4} = {B20AF0A4-0F5C-4C8F-AFC7-FF5E1E05636E}
+		{5F4F1921-6374-48C6-88CB-41CD72668C12} = {9D0560A6-ABA7-4FF8-972E-1EE6A5F5A3FF}
+		{EEEC1D51-088D-4AAE-8BE0-6B4FB5C3B21B} = {9D0560A6-ABA7-4FF8-972E-1EE6A5F5A3FF}
+	EndGlobalSection
+EndGlobal

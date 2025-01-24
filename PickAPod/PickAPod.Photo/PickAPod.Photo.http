@@ -1,0 +1,6 @@
+@PickAPod.Photo_HostAddress = http://localhost:5129
+
+GET {{PickAPod.Photo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

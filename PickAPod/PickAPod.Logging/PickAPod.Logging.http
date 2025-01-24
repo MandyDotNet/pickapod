@@ -1,0 +1,6 @@
+@PickAPod.Logging_HostAddress = http://localhost:5198
+
+GET {{PickAPod.Logging_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
