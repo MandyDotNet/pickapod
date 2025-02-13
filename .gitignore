@@ -1,8 +1,64 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.vsp
+*.vspx
+*.ncb
+*.sdf
+*.opendb
+*.VC.db
+*.VC.VC.opendb
 
-/.vs
-/PickAPod/.vs/PickAPod/CopilotIndices/17.12.53.23981
-/PickAPod/.vs/ProjectEvaluation
-/PickAPod/.vs/PickAPod/copilot-chat/c2c9fabc/sessions/e010d3e9-f162-4fc3-a3ca-64aca201dd6b
+# Ignore build outputs
+bin/
+obj/
+*.log
+*.tlog
+*.cache
+*.pdb
+
+# Ignore NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+package-lock.json
+
+# Ignore Rider & JetBrains files (if using Rider)
+.idea/
+*.iml
+
+# Ignore Resharper files
+*.DotSettings.user
+
+# Ignore IIS / Azure related files
+App_Data/
+app.publish/
+publish/
+*.pubxml
+*.publishproj
+
+# Ignore temporary files
+**/*.bak
+**/*.swp
+**/*.tmp
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Ignore environment and configuration files
+.env
+secrets.json
+appsettings.*.json
+
+# Ignore Docker related files (if using Docker)
+docker-compose.override.yml
+
+# Ignore macOS and Linux related files
+.DS_Store
+._*
+
